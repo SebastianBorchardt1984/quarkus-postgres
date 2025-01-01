@@ -1,0 +1,14 @@
+{
+    "name": "Quarkus Project",
+    "image": "mcr.microsoft.com/vscode/devcontainers/java:0-17",
+    "settings": {
+        "java.configuration.updateBuildConfiguration": "automatic"
+    },
+    "postCreateCommand": "mvn clean install",
+    "forwardPorts": [8080],
+    "extensions": [
+        "redhat.java",
+        "vscjava.vscode-java-pack",
+        "vscjava.vscode-maven"
+    ]
+}
